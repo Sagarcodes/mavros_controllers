@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>controller_msgs</name>
+  <version>0.0.1</version>
+  <description>
+    controller_msgs includes the definition for custom messages for the <a href="#">mavros_controllers</a> package.
+  </description>
+
+  <maintainer email="sagarsingh.cs1996@gmail.com">Sagar Singh</maintainer>
+  <author email="sagarsingh.cs1996@gmail.com">Sagar Singh</author>
+  <license>BSD</license>
+
+  <url type="website">https://github.com/</url>
+  <url type="repository">https://github.com/</url>
+  <url type="bugtracker">https://github.com/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>mavros_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <!-- XXX needed for users of mavlink_convert.h
+  <build_export_depend>libmavconn</build_export_depend>
+  -->
+
+  <export>
+    <architecture_independent/>
+  </export>
+</package>
